@@ -34,14 +34,3 @@ func (date ISODate) MarshalJSON() ([]byte, error) {
 func (date ISODate) ToISOString() string {
 	return time.Time(date).Format("2006-01-02")
 }
-
-func (date ISODate) DaysOverdueBy(frequency Frequency) int {
-	frequencyAdjusted := time.Time(date).
-		Add(time.Duration(24 * 7 * frequency.Weeks) * time.Hour).
-		Add(time.Duration(24 * 7 * 4 * frequency.Months) * time.Hour).
-		Add(time.Duration(24 * 7 * 4 * 12 * frequency.Years) * time.Hour)
-
-	overdueDuration := time.Now().Sub(frequencyAdjusted)
-
-	return int(overdueDuration.Hours() / 24)
-}

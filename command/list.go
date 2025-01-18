@@ -19,7 +19,7 @@ func List(cCtx *cli.Context) error {
 		fmt.Printf("%-4s %-35s %-20s %-20s\n", "", "Job", "Last Completed", "Overdue By")
 		fmt.Println("")
 		for _, job := range room.Jobs {
-			daysOverdueBy := job.LastCompleted.DaysOverdueBy(job.Frequency)
+			daysOverdueBy := job.DaysOverdueBy()
 			if daysOverdueBy < 0 {
 				continue
 			}
