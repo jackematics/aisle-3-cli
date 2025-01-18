@@ -17,6 +17,24 @@ func main() {
 				Usage: "list pending jobs",
 				Action: command.List,
 			},
+			{
+				Name: "complete",
+				Aliases: []string{"c"},
+				Usage: "complete a job",
+				Action: command.Complete,
+				Flags: []cli.Flag{
+					&cli.StringFlag{
+						Name: "room",
+						Aliases: []string{"r"},
+						Usage: "room job was completed in",
+					},
+					&cli.StringSliceFlag{
+						Name: "jobs",
+						Aliases: []string{"j"},
+						Usage: "jobs completed",
+					},
+				},
+			},
 		},
 	}
 

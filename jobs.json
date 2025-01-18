@@ -4,20 +4,6 @@
       "name": "Downstairs bathroom",
       "jobs": [
         {
-          "job": "Hoover",
-          "frequency": {
-            "weeks": 3
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Mop",
-          "frequency": {
-            "months": 1
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
           "job": "Sink",
           "frequency": {
             "weeks": 2
@@ -32,24 +18,12 @@
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Skirting boards",
-          "frequency": {
-            "months": 6
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
           "job": "Bathroom tiles",
           "frequency": {
             "weeks": 2
           },
           "last-completed": "2024-12-12"
-        }
-      ]
-    },
-    {
-      "name": "Utility room",
-      "jobs": [
+        },
         {
           "job": "Hoover",
           "frequency": {
@@ -64,6 +38,18 @@
           },
           "last-completed": "2024-12-12"
         },
+        {
+          "job": "Skirting boards",
+          "frequency": {
+            "months": 6
+          },
+          "last-completed": "2024-12-12"
+        }
+      ]
+    },
+    {
+      "name": "Utility room",
+      "jobs": [
         {
           "job": "Sink",
           "frequency": {
@@ -79,16 +65,16 @@
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Cupboards",
+          "job": "Hoover",
           "frequency": {
-            "years": 1
+            "weeks": 3
           },
-          "last-completed": "2025-01-09"
+          "last-completed": "2024-12-12"
         },
         {
-          "job": "Washing machine drum",
+          "job": "Mop",
           "frequency": {
-            "months": 3
+            "months": 1
           },
           "last-completed": "2024-12-12"
         },
@@ -96,6 +82,13 @@
           "job": "Washing machine detergent drawer",
           "frequency": {
             "months": 2
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Washing machine drum",
+          "frequency": {
+            "months": 3
           },
           "last-completed": "2024-12-12"
         },
@@ -112,6 +105,13 @@
             "years": 1
           },
           "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Cupboards",
+          "frequency": {
+            "years": 1
+          },
+          "last-completed": "2025-01-09"
         }
       ]
     },
@@ -119,16 +119,16 @@
       "name": "Garage",
       "jobs": [
         {
-          "job": "Sweep",
+          "job": "Shelves",
           "frequency": {
-            "years": 1
+            "months": 1
           },
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Shelves",
+          "job": "Sweep",
           "frequency": {
-            "months": 1
+            "years": 1
           },
           "last-completed": "2024-12-12"
         }
@@ -137,6 +137,13 @@
     {
       "name": "Downstairs hallway",
       "jobs": [
+        {
+          "job": "Countertop",
+          "frequency": {
+            "weeks": 2
+          },
+          "last-completed": "2024-12-12"
+        },
         {
           "job": "Hoover",
           "frequency": {
@@ -159,13 +166,6 @@
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Countertop",
-          "frequency": {
-            "weeks": 2
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
           "job": "Skirting boards",
           "frequency": {
             "months": 6
@@ -178,16 +178,16 @@
       "name": "Ground to first floor stairs",
       "jobs": [
         {
-          "job": "Hoover",
+          "job": "Banisters",
           "frequency": {
-            "weeks": 3
+            "weeks": 2
           },
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Banisters",
+          "job": "Hoover",
           "frequency": {
-            "weeks": 2
+            "weeks": 3
           },
           "last-completed": "2024-12-12"
         },
@@ -204,6 +204,13 @@
       "name": "Kitchen",
       "jobs": [
         {
+          "job": "Sink",
+          "frequency": {
+            "weeks": 2
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
           "job": "Hoover",
           "frequency": {
             "weeks": 3
@@ -214,20 +221,6 @@
           "job": "Mop",
           "frequency": {
             "weeks": 4
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Sink",
-          "frequency": {
-            "weeks": 2
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Oven",
-          "frequency": {
-            "years": 1
           },
           "last-completed": "2024-12-12"
         },
@@ -253,13 +246,6 @@
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Dishwasher",
-          "frequency": {
-            "years": 1
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
           "job": "Fridge",
           "frequency": {
             "months": 6
@@ -270,6 +256,20 @@
           "job": "Freezer",
           "frequency": {
             "months": 6
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Oven",
+          "frequency": {
+            "years": 1
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Dishwasher",
+          "frequency": {
+            "years": 1
           },
           "last-completed": "2024-12-12"
         },
@@ -307,6 +307,13 @@
           "last-completed": "2024-12-12"
         },
         {
+          "job": "Piano",
+          "frequency": {
+            "months": 1
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
           "job": "Window and window sill",
           "frequency": {
             "months": 6
@@ -324,13 +331,6 @@
           "job": "Radiator",
           "frequency": {
             "years": 1
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Piano",
-          "frequency": {
-            "months": 1
           },
           "last-completed": "2024-12-12"
         }
@@ -373,23 +373,9 @@
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Skirting boards",
-          "frequency": {
-            "months": 6
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
           "job": "Bookshelves",
           "frequency": {
             "months": 1
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Windows and window sills",
-          "frequency": {
-            "months": 6
           },
           "last-completed": "2024-12-12"
         },
@@ -408,16 +394,30 @@
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Radiators",
+          "job": "Desk",
           "frequency": {
-            "years": 1
+            "months": 1
           },
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Desk",
+          "job": "Skirting boards",
           "frequency": {
-            "months": 1
+            "months": 6
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Windows and window sills",
+          "frequency": {
+            "months": 6
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Radiators",
+          "frequency": {
+            "years": 1
           },
           "last-completed": "2024-12-12"
         }
@@ -426,20 +426,6 @@
     {
       "name": "First floor bathroom",
       "jobs": [
-        {
-          "job": "Hoover",
-          "frequency": {
-            "weeks": 3
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Mop",
-          "frequency": {
-            "weeks": 4
-          },
-          "last-completed": "2024-12-12"
-        },
         {
           "job": "Sink",
           "frequency": {
@@ -455,20 +441,6 @@
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Drawers",
-          "frequency": {
-            "years": 1
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Tiles",
-          "frequency": {
-            "months": 6
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
           "job": "Bath",
           "frequency": {
             "weeks": 2
@@ -476,9 +448,16 @@
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Shower head",
+          "job": "Hoover",
           "frequency": {
-            "months": 3
+            "weeks": 3
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Mop",
+          "frequency": {
+            "weeks": 4
           },
           "last-completed": "2024-12-12"
         },
@@ -493,6 +472,27 @@
           "job": "Towel rail",
           "frequency": {
             "months": 1
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Shower head",
+          "frequency": {
+            "months": 3
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Tiles",
+          "frequency": {
+            "months": 6
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Drawers",
+          "frequency": {
+            "years": 1
           },
           "last-completed": "2024-12-12"
         },
@@ -516,6 +516,13 @@
           "last-completed": "2024-12-12"
         },
         {
+          "job": "Dresser",
+          "frequency": {
+            "months": 1
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
           "job": "Skirting boards",
           "frequency": {
             "months": 6
@@ -526,13 +533,6 @@
           "job": "Window and window sill",
           "frequency": {
             "months": 6
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Dresser",
-          "frequency": {
-            "months": 1
           },
           "last-completed": "2024-12-12"
         }
@@ -549,16 +549,16 @@
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Skirting boards",
+          "job": "Banisters",
           "frequency": {
-            "months": 6
+            "months": 1
           },
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Banisters",
+          "job": "Skirting boards",
           "frequency": {
-            "months": 1
+            "months": 6
           },
           "last-completed": "2024-12-12"
         }
@@ -587,13 +587,6 @@
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Skirting boards",
-          "frequency": {
-            "months": 6
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
           "job": "Bedding",
           "frequency": {
             "weeks": 3
@@ -601,30 +594,9 @@
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Jack bedside table",
+          "job": "Bedside tables",
           "frequency": {
             "months": 1
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Cass bedside table",
-          "frequency": {
-            "months": 1
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Jack bedside table drawers",
-          "frequency": {
-            "years": 1
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Cass bedside table drawers",
-          "frequency": {
-            "years": 1
           },
           "last-completed": "2024-12-12"
         },
@@ -636,42 +608,7 @@
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Jack dresser drawers",
-          "frequency": {
-            "years": 1
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Cass dresser drawers",
-          "frequency": {
-            "years": 1
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Window and window sill",
-          "frequency": {
-            "months": 6
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
           "job": "Jack wardrobe",
-          "frequency": {
-            "months": 3
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Cass wardrobe",
-          "frequency": {
-            "months": 3
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Long wardrobe",
           "frequency": {
             "months": 3
           },
@@ -690,26 +627,40 @@
             "months": 3
           },
           "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Skirting boards",
+          "frequency": {
+            "months": 6
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Window and window sill",
+          "frequency": {
+            "months": 6
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Jack bedside table drawers",
+          "frequency": {
+            "years": 1
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Jack dresser drawers",
+          "frequency": {
+            "years": 1
+          },
+          "last-completed": "2024-12-12"
         }
       ]
     },
     {
       "name": "En-suite bathroom",
       "jobs": [
-        {
-          "job": "Hoover",
-          "frequency": {
-            "weeks": 3
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Mop",
-          "frequency": {
-            "weeks": 4
-          },
-          "last-completed": "2024-12-12"
-        },
         {
           "job": "Sink",
           "frequency": {
@@ -725,9 +676,16 @@
           "last-completed": "2024-12-12"
         },
         {
-          "job": "Tiles",
+          "job": "Hoover",
           "frequency": {
-            "months": 6
+            "weeks": 3
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Mop",
+          "frequency": {
+            "weeks": 4
           },
           "last-completed": "2024-12-12"
         },
@@ -735,13 +693,6 @@
           "job": "Surfaces",
           "frequency": {
             "months": 1
-          },
-          "last-completed": "2024-12-12"
-        },
-        {
-          "job": "Drawers",
-          "frequency": {
-            "years": 1
           },
           "last-completed": "2024-12-12"
         },
@@ -756,6 +707,20 @@
           "job": "Shower screen",
           "frequency": {
             "months": 3
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Tiles",
+          "frequency": {
+            "months": 6
+          },
+          "last-completed": "2024-12-12"
+        },
+        {
+          "job": "Drawers",
+          "frequency": {
+            "years": 1
           },
           "last-completed": "2024-12-12"
         }
@@ -784,6 +749,21 @@
             "months": 6
           },
           "last-completed": "2024-12-12"
+        }
+      ]
+    },
+    {
+      "name": "Car",
+      "jobs": [
+        {
+          "job": "Interior",
+          "frequency": {},
+          "last-completed": "2019-01-01"
+        },
+        {
+          "job": "Exterior",
+          "frequency": {},
+          "last-completed": "2019-01-01"
         }
       ]
     }
