@@ -766,6 +766,53 @@
           "last-completed": "2019-01-01"
         }
       ]
+    },
+    {
+      "name": "Misc",
+      "jobs": [
+        {
+          "job": "Service boiler",
+          "frequency": {
+            "years": 1
+          },
+          "last-completed": "2024-09-01"
+        },
+        {
+          "job": "Service hoover",
+          "frequency": {
+            "years": 1
+          },
+          "last-completed": "2025-02-01"
+        },
+        {
+          "job": "MOT",
+          "frequency": {
+            "months": 11
+          },
+          "last-completed": "2024-03-22"
+        },
+        {
+          "job": "Car insurance",
+          "frequency": {
+            "months": 11
+          },
+          "last-completed": "2024-05-01"
+        },
+        {
+          "job": "Breakdown cover",
+          "frequency": {
+            "months": 11
+          },
+          "last-completed": "2024-08-01"
+        },
+        {
+          "job": "Building and contents insurance",
+          "frequency": {
+            "months": 11
+          },
+          "last-completed": "2024-12-05"
+        }
+      ]
     }
   ]
 }
