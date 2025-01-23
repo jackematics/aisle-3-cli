@@ -19,8 +19,8 @@ type Job struct {
 func (job Job) DaysOverdueBy() int {
 	frequencyAdjusted := time.Time(job.LastCompleted).
 		Add(time.Duration(24 * 7 * job.Frequency.Weeks) * time.Hour).
-		Add(time.Duration(24 * 7 * 4 * job.Frequency.Months) * time.Hour).
-		Add(time.Duration(24 * 7 * 4 * 12 * job.Frequency.Years) * time.Hour)
+		Add(time.Duration(24 * 31 * job.Frequency.Months) * time.Hour).
+		Add(time.Duration(24 * 365 * job.Frequency.Years) * time.Hour)
 
 	overdueDuration := time.Now().Sub(frequencyAdjusted)
 
